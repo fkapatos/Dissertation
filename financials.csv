@@ -1,351 +1,351 @@
 Firm,Line Item,t,t-1,t-2,t-3,t-4,t-5
-FirmA,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmA,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmA,Inventory,500,480,460,440,420,400
-FirmA,Other Current Assets,200,190,180,170,160,150
-FirmA,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmA,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmA,Intangible Assets,400,390,380,370,360,350
-FirmA,Other Non-Current Assets,300,290,280,270,260,250
-FirmA,Total Assets,6250,6050,5850,5680,5500,5350
-FirmA,Accounts Payable,400,390,380,370,360,350
-FirmA,Short-Term Debt,200,190,180,170,160,150
-FirmA,Other Current Liabilities,150,140,130,120,110,100
-FirmA,Total Current Liabilities,750,720,690,660,630,600
-FirmA,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmA,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmA,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmA,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmA,Retained Earnings,700,680,660,640,620,600
+FirmA,Cash and Cash Equivalents,600,650,550,700,400,800
+FirmA,Accounts Receivable,1100,1050,1080,900,1150,1000
+FirmA,Inventory,400,450,440,460,420,410
+FirmA,Other Current Assets,200,210,190,220,180,205
+FirmA,Total Current Assets,2300,2360,2260,2280,2150,2415
+FirmA,Property Plant & Equipment,2800,2750,2900,2600,2850,2950
+FirmA,Intangible Assets,350,360,370,340,330,380
+FirmA,Other Non-Current Assets,280,290,275,295,270,265
+FirmA,Total Assets,4800,4760,4805,4650,4600,4700
+FirmA,Accounts Payable,500,520,510,530,490,505
+FirmA,Short-Term Debt,300,310,290,320,280,295
+FirmA,Other Current Liabilities,250,240,260,235,270,245
+FirmA,Total Current Liabilities,1050,1070,1060,1085,1040,1045
+FirmA,Long-Term Debt,900,920,850,950,870,890
+FirmA,Other Non-Current Liabilities,300,280,310,295,305,290
+FirmA,Total Liabilities,2250,2270,2220,2330,2215,2230
+FirmA,Shareholders’ Equity,1200,1180,1150,1100,1250,1170
+FirmA,Retained Earnings,450,460,440,430,420,410
 FirmA,Other Equity,300,300,300,300,300,300
-FirmA,Total Equity,3000,2930,2860,2790,2720,2650
-FirmA,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmA,Revenues,12000,11500,11000,10500,10000,9500
-FirmA,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmA,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmA,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmA,Depreciation,400,380,360,340,320,300
-FirmA,Amortization,100,95,90,85,80,75
-FirmA,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmA,Operating Income,2000,1825,1650,1475,1300,1125
-FirmA,Interest Income,100,95,90,85,80,75
-FirmA,Interest Expense,200,190,180,170,160,150
-FirmA,Other Non-Operating Items,50,50,50,50,50,50
-FirmA,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmA,Income Tax Expense,400,380,360,340,320,300
-FirmA,Net Income,1550,1400,1250,1100,950,800
-FirmB,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmB,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmB,Inventory,500,480,460,440,420,400
-FirmB,Other Current Assets,200,190,180,170,160,150
-FirmB,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmB,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmB,Intangible Assets,400,390,380,370,360,350
-FirmB,Other Non-Current Assets,300,290,280,270,260,250
-FirmB,Total Assets,6250,6050,5850,5680,5500,5350
-FirmB,Accounts Payable,400,390,380,370,360,350
-FirmB,Short-Term Debt,200,190,180,170,160,150
-FirmB,Other Current Liabilities,150,140,130,120,110,100
-FirmB,Total Current Liabilities,750,720,690,660,630,600
-FirmB,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmB,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmB,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmB,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmB,Retained Earnings,700,680,660,640,620,600
-FirmB,Other Equity,300,300,300,300,300,300
-FirmB,Total Equity,3000,2930,2860,2790,2720,2650
-FirmB,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmB,Revenues,12000,11500,11000,10500,10000,9500
-FirmB,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmB,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmB,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmB,Depreciation,400,380,360,340,320,300
-FirmB,Amortization,100,95,90,85,80,75
-FirmB,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmB,Operating Income,2000,1825,1650,1475,1300,1125
-FirmB,Interest Income,100,95,90,85,80,75
-FirmB,Interest Expense,200,190,180,170,160,150
-FirmB,Other Non-Operating Items,50,50,50,50,50,50
-FirmB,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmB,Income Tax Expense,400,380,360,340,320,300
-FirmB,Net Income,1550,1400,1250,1100,950,800
-FirmC,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmC,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmC,Inventory,500,480,460,440,420,400
-FirmC,Other Current Assets,200,190,180,170,160,150
-FirmC,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmC,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmC,Intangible Assets,400,390,380,370,360,350
-FirmC,Other Non-Current Assets,300,290,280,270,260,250
-FirmC,Total Assets,6250,6050,5850,5680,5500,5350
-FirmC,Accounts Payable,400,390,380,370,360,350
-FirmC,Short-Term Debt,200,190,180,170,160,150
-FirmC,Other Current Liabilities,150,140,130,120,110,100
-FirmC,Total Current Liabilities,750,720,690,660,630,600
-FirmC,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmC,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmC,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmC,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmC,Retained Earnings,700,680,660,640,620,600
+FirmA,Total Equity,1950,1940,1890,1830,1970,1880
+FirmA,Total Liabilities and Equity,4200,4210,4110,4160,4185,4110
+FirmA,Revenues,12500,13000,12000,11000,9000,9500
+FirmA,Cost of Goods Sold (COGS),7500,7600,7300,6900,5800,6000
+FirmA,Gross Profit,5000,5400,4700,4100,3200,3500
+FirmA,Operating Expenses,2700,2800,2500,2300,2100,2200
+FirmA,Depreciation,400,420,390,380,370,360
+FirmA,Amortization,100,110,90,95,105,100
+FirmA,Total Operating Expenses,3200,3330,2980,2775,2575,2660
+FirmA,Operating Income,1800,2070,1720,1325,625,840
+FirmA,Interest Income,90,95,85,75,60,70
+FirmA,Interest Expense,200,210,195,180,170,175
+FirmA,Other Non-Operating Items,40,50,55,45,35,60
+FirmA,Pre-Tax Income,1730,2005,1665,1215,550,795
+FirmA,Income Tax Expense,400,450,380,350,150,250
+FirmA,Net Income,1330,1555,1285,865,400,545
+FirmB,Cash and Cash Equivalents,720,600,620,580,540,700
+FirmB,Accounts Receivable,950,980,930,1050,1000,990
+FirmB,Inventory,420,410,430,380,470,450
+FirmB,Other Current Assets,250,260,240,265,230,280
+FirmB,Total Current Assets,2340,2250,2220,2275,2240,2420
+FirmB,Property Plant & Equipment,2900,2950,2750,2780,2820,2700
+FirmB,Intangible Assets,380,350,370,360,390,345
+FirmB,Other Non-Current Assets,320,310,330,305,290,315
+FirmB,Total Assets,5200,5110,4970,4960,5040,4985
+FirmB,Accounts Payable,480,470,500,460,530,495
+FirmB,Short-Term Debt,340,330,350,345,310,300
+FirmB,Other Current Liabilities,260,280,255,290,275,265
+FirmB,Total Current Liabilities,1080,1080,1105,1095,1115,1060
+FirmB,Long-Term Debt,1000,980,1020,995,1010,970
+FirmB,Other Non-Current Liabilities,320,305,345,330,315,310
+FirmB,Total Liabilities,2400,2365,2470,2420,2440,2340
+FirmB,Shareholders’ Equity,1800,1750,1700,1780,1850,1770
+FirmB,Retained Earnings,500,520,490,480,510,495
+FirmB,Other Equity,200,200,200,200,200,200
+FirmB,Total Equity,2500,2470,2390,2460,2560,2465
+FirmB,Total Liabilities and Equity,4900,4835,4860,4880,5000,4805
+FirmB,Revenues,11000,11300,10700,9900,10500,10100
+FirmB,Cost of Goods Sold (COGS),6800,6900,6700,6400,6600,6200
+FirmB,Gross Profit,4200,4400,4000,3500,3900,3900
+FirmB,Operating Expenses,2300,2350,2250,2200,2150,2100
+FirmB,Depreciation,350,370,360,355,345,340
+FirmB,Amortization,80,85,75,82,78,70
+FirmB,Total Operating Expenses,2730,2805,2685,2637,2573,2510
+FirmB,Operating Income,1470,1595,1315,863,1327,1390
+FirmB,Interest Income,70,72,68,60,75,65
+FirmB,Interest Expense,180,185,190,175,160,165
+FirmB,Other Non-Operating Items,30,35,25,40,45,20
+FirmB,Pre-Tax Income,1390,1517,1218,788,1287,1290
+FirmB,Income Tax Expense,300,320,250,210,280,250
+FirmB,Net Income,1090,1197,968,578,1007,1040
+FirmC,Cash and Cash Equivalents,500,540,480,530,560,450
+FirmC,Accounts Receivable,1050,990,970,1100,950,960
+FirmC,Inventory,460,450,420,400,430,410
+FirmC,Other Current Assets,270,265,290,250,280,260
+FirmC,Total Current Assets,2280,2245,2160,2280,2220,2080
+FirmC,Property Plant & Equipment,2650,2600,2550,2700,2750,2800
+FirmC,Intangible Assets,300,310,320,305,295,315
+FirmC,Other Non-Current Assets,350,340,355,360,330,345
+FirmC,Total Assets,4650,4585,4520,4645,4595,4580
+FirmC,Accounts Payable,420,415,400,435,410,405
+FirmC,Short-Term Debt,310,305,330,300,295,325
+FirmC,Other Current Liabilities,230,240,220,215,225,235
+FirmC,Total Current Liabilities,960,960,950,950,930,965
+FirmC,Long-Term Debt,850,830,870,860,840,880
+FirmC,Other Non-Current Liabilities,290,280,300,285,295,270
+FirmC,Total Liabilities,2100,2070,2120,2095,2065,2115
+FirmC,Shareholders’ Equity,1700,1650,1630,1720,1750,1670
+FirmC,Retained Earnings,500,490,480,520,530,510
 FirmC,Other Equity,300,300,300,300,300,300
-FirmC,Total Equity,3000,2930,2860,2790,2720,2650
-FirmC,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmC,Revenues,12000,11500,11000,10500,10000,9500
-FirmC,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmC,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmC,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmC,Depreciation,400,380,360,340,320,300
-FirmC,Amortization,100,95,90,85,80,75
-FirmC,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmC,Operating Income,2000,1825,1650,1475,1300,1125
-FirmC,Interest Income,100,95,90,85,80,75
-FirmC,Interest Expense,200,190,180,170,160,150
-FirmC,Other Non-Operating Items,50,50,50,50,50,50
-FirmC,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmC,Income Tax Expense,400,380,360,340,320,300
-FirmC,Net Income,1550,1400,1250,1100,950,800
-FirmD,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmD,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmD,Inventory,500,480,460,440,420,400
-FirmD,Other Current Assets,200,190,180,170,160,150
-FirmD,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmD,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmD,Intangible Assets,400,390,380,370,360,350
-FirmD,Other Non-Current Assets,300,290,280,270,260,250
-FirmD,Total Assets,6250,6050,5850,5680,5500,5350
-FirmD,Accounts Payable,400,390,380,370,360,350
-FirmD,Short-Term Debt,200,190,180,170,160,150
-FirmD,Other Current Liabilities,150,140,130,120,110,100
-FirmD,Total Current Liabilities,750,720,690,660,630,600
-FirmD,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmD,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmD,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmD,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmD,Retained Earnings,700,680,660,640,620,600
+FirmC,Total Equity,2500,2440,2410,2540,2580,2480
+FirmC,Total Liabilities and Equity,4600,4510,4530,4635,4645,4595
+FirmC,Revenues,9800,10200,9400,9100,10400,9500
+FirmC,Cost of Goods Sold (COGS),6000,6200,5700,5600,6500,5800
+FirmC,Gross Profit,3800,4000,3700,3500,2900,3700
+FirmC,Operating Expenses,2100,2200,2150,2300,2000,2050
+FirmC,Depreciation,320,310,340,330,300,310
+FirmC,Amortization,100,90,95,105,110,85
+FirmC,Total Operating Expenses,2520,2600,2585,2735,2410,2445
+FirmC,Operating Income,1280,1400,1115,765,490,1255
+FirmC,Interest Income,50,55,45,60,40,65
+FirmC,Interest Expense,150,145,160,155,140,135
+FirmC,Other Non-Operating Items,45,40,35,50,55,30
+FirmC,Pre-Tax Income,1225,1350,995,620,400,1215
+FirmC,Income Tax Expense,260,285,210,180,120,250
+FirmC,Net Income,965,1065,785,440,280,965
+FirmD,Cash and Cash Equivalents,800,820,780,750,830,790
+FirmD,Accounts Receivable,1250,1200,1280,1220,1180,1260
+FirmD,Inventory,550,530,560,520,540,580
+FirmD,Other Current Assets,330,310,350,340,290,320
+FirmD,Total Current Assets,2930,2860,2970,2830,2840,2950
+FirmD,Property Plant & Equipment,3050,2950,3100,3000,2900,3200
+FirmD,Intangible Assets,420,410,425,395,430,440
+FirmD,Other Non-Current Assets,380,365,390,370,405,395
+FirmD,Total Assets,6360,6200,6485,6230,6275,6485
+FirmD,Accounts Payable,630,600,620,590,640,610
+FirmD,Short-Term Debt,350,340,360,330,370,325
+FirmD,Other Current Liabilities,310,320,300,305,290,295
+FirmD,Total Current Liabilities,1290,1260,1280,1225,1300,1230
+FirmD,Long-Term Debt,1550,1500,1580,1520,1470,1600
+FirmD,Other Non-Current Liabilities,450,440,460,420,480,430
+FirmD,Total Liabilities,3290,3200,3320,3165,3250,3260
+FirmD,Shareholders’ Equity,2200,2150,2100,2230,2260,2160
+FirmD,Retained Earnings,650,630,640,620,610,660
 FirmD,Other Equity,300,300,300,300,300,300
-FirmD,Total Equity,3000,2930,2860,2790,2720,2650
-FirmD,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmD,Revenues,12000,11500,11000,10500,10000,9500
-FirmD,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmD,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmD,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmD,Depreciation,400,380,360,340,320,300
-FirmD,Amortization,100,95,90,85,80,75
-FirmD,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmD,Operating Income,2000,1825,1650,1475,1300,1125
-FirmD,Interest Income,100,95,90,85,80,75
-FirmD,Interest Expense,200,190,180,170,160,150
-FirmD,Other Non-Operating Items,50,50,50,50,50,50
-FirmD,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmD,Income Tax Expense,400,380,360,340,320,300
-FirmD,Net Income,1550,1400,1250,1100,950,800
-FirmE,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmE,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmE,Inventory,500,480,460,440,420,400
-FirmE,Other Current Assets,200,190,180,170,160,150
-FirmE,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmE,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmE,Intangible Assets,400,390,380,370,360,350
-FirmE,Other Non-Current Assets,300,290,280,270,260,250
-FirmE,Total Assets,6250,6050,5850,5680,5500,5350
-FirmE,Accounts Payable,400,390,380,370,360,350
-FirmE,Short-Term Debt,200,190,180,170,160,150
-FirmE,Other Current Liabilities,150,140,130,120,110,100
-FirmE,Total Current Liabilities,750,720,690,660,630,600
-FirmE,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmE,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmE,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmE,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmE,Retained Earnings,700,680,660,640,620,600
+FirmD,Total Equity,3150,3080,3040,3150,3170,3120
+FirmD,Total Liabilities and Equity,6440,6280,6360,6315,6420,6380
+FirmD,Revenues,14000,13500,13200,14500,12500,13000
+FirmD,Cost of Goods Sold (COGS),9000,8800,8700,9400,8200,8500
+FirmD,Gross Profit,5000,4700,4500,4100,4300,4500
+FirmD,Operating Expenses,3000,2950,2850,3050,2900,2800
+FirmD,Depreciation,450,420,430,460,410,440
+FirmD,Amortization,120,110,125,100,95,130
+FirmD,Total Operating Expenses,3570,3480,3405,3610,3405,3370
+FirmD,Operating Income,1430,1220,1095,490,895,1130
+FirmD,Interest Income,70,80,65,75,60,85
+FirmD,Interest Expense,210,220,205,230,200,215
+FirmD,Other Non-Operating Items,55,50,45,60,40,65
+FirmD,Pre-Tax Income,1345,1030,910,375,795,1065
+FirmD,Income Tax Expense,380,350,300,140,300,330
+FirmD,Net Income,965,680,610,235,495,735
+FirmE,Cash and Cash Equivalents,400,420,390,450,410,430
+FirmE,Accounts Receivable,930,950,920,880,960,975
+FirmE,Inventory,480,500,460,470,520,495
+FirmE,Other Current Assets,220,215,230,200,210,190
+FirmE,Total Current Assets,2030,2085,2000,2000,2100,2090
+FirmE,Property Plant & Equipment,2500,2480,2550,2400,2300,2450
+FirmE,Intangible Assets,340,350,330,315,360,340
+FirmE,Other Non-Current Assets,290,270,280,275,265,285
+FirmE,Total Assets,4470,4385,4460,4175,4225,4365
+FirmE,Accounts Payable,390,410,400,380,420,395
+FirmE,Short-Term Debt,190,185,200,175,205,210
+FirmE,Other Current Liabilities,160,170,150,140,165,155
+FirmE,Total Current Liabilities,740,765,750,695,790,760
+FirmE,Long-Term Debt,1750,1700,1780,1650,1620,1680
+FirmE,Other Non-Current Liabilities,460,480,420,410,405,390
+FirmE,Total Liabilities,2950,2945,2950,2755,2815,2830
+FirmE,Shareholders’ Equity,1050,1000,1100,940,960,990
+FirmE,Retained Earnings,500,490,520,460,440,470
 FirmE,Other Equity,300,300,300,300,300,300
-FirmE,Total Equity,3000,2930,2860,2790,2720,2650
-FirmE,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmE,Revenues,12000,11500,11000,10500,10000,9500
-FirmE,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmE,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmE,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmE,Depreciation,400,380,360,340,320,300
-FirmE,Amortization,100,95,90,85,80,75
-FirmE,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmE,Operating Income,2000,1825,1650,1475,1300,1125
-FirmE,Interest Income,100,95,90,85,80,75
-FirmE,Interest Expense,200,190,180,170,160,150
-FirmE,Other Non-Operating Items,50,50,50,50,50,50
-FirmE,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmE,Income Tax Expense,400,380,360,340,320,300
-FirmE,Net Income,1550,1400,1250,1100,950,800
-FirmF,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmF,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmF,Inventory,500,480,460,440,420,400
-FirmF,Other Current Assets,200,190,180,170,160,150
-FirmF,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmF,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmF,Intangible Assets,400,390,380,370,360,350
-FirmF,Other Non-Current Assets,300,290,280,270,260,250
-FirmF,Total Assets,6250,6050,5850,5680,5500,5350
-FirmF,Accounts Payable,400,390,380,370,360,350
-FirmF,Short-Term Debt,200,190,180,170,160,150
-FirmF,Other Current Liabilities,150,140,130,120,110,100
-FirmF,Total Current Liabilities,750,720,690,660,630,600
-FirmF,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmF,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmF,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmF,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmF,Retained Earnings,700,680,660,640,620,600
+FirmE,Total Equity,1850,1790,1920,1700,1700,1760
+FirmE,Total Liabilities and Equity,4800,4735,4870,4455,4515,4590
+FirmE,Revenues,9300,9500,9200,8900,9400,9150
+FirmE,Cost of Goods Sold (COGS),6000,6050,5900,5700,6300,6100
+FirmE,Gross Profit,3300,3450,3300,3200,3100,3050
+FirmE,Operating Expenses,2200,2300,2150,2100,2250,2200
+FirmE,Depreciation,320,330,310,305,340,325
+FirmE,Amortization,90,100,85,80,95,90
+FirmE,Total Operating Expenses,2610,2730,2545,2485,2685,2615
+FirmE,Operating Income,690,720,755,715,415,435
+FirmE,Interest Income,55,60,50,45,65,55
+FirmE,Interest Expense,160,155,170,150,175,165
+FirmE,Other Non-Operating Items,30,20,35,40,15,25
+FirmE,Pre-Tax Income,615,605,640,610,320,300
+FirmE,Income Tax Expense,185,175,160,170,100,90
+FirmE,Net Income,430,430,480,440,220,210
+FirmF,Cash and Cash Equivalents,900,860,920,880,830,950
+FirmF,Accounts Receivable,1150,1200,1120,1160,1100,1140
+FirmF,Inventory,550,530,540,560,590,520
+FirmF,Other Current Assets,320,315,300,330,310,295
+FirmF,Total Current Assets,2920,2905,2880,2970,2830,2905
+FirmF,Property Plant & Equipment,3100,3050,3150,3200,3000,2950
+FirmF,Intangible Assets,420,410,435,425,400,430
+FirmF,Other Non-Current Assets,390,380,400,375,420,390
+FirmF,Total Assets,6430,6395,6515,6550,6250,6275
+FirmF,Accounts Payable,520,530,510,540,505,515
+FirmF,Short-Term Debt,290,300,285,295,315,280
+FirmF,Other Current Liabilities,270,265,275,250,280,260
+FirmF,Total Current Liabilities,1080,1095,1070,1085,1100,1055
+FirmF,Long-Term Debt,1700,1650,1750,1780,1600,1670
+FirmF,Other Non-Current Liabilities,480,460,495,450,430,470
+FirmF,Total Liabilities,3260,3205,3315,3315,3130,3195
+FirmF,Shareholders’ Equity,2100,2150,2050,2180,2050,2000
+FirmF,Retained Earnings,590,600,610,580,570,620
 FirmF,Other Equity,300,300,300,300,300,300
-FirmF,Total Equity,3000,2930,2860,2790,2720,2650
-FirmF,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmF,Revenues,12000,11500,11000,10500,10000,9500
-FirmF,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmF,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmF,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmF,Depreciation,400,380,360,340,320,300
-FirmF,Amortization,100,95,90,85,80,75
-FirmF,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmF,Operating Income,2000,1825,1650,1475,1300,1125
-FirmF,Interest Income,100,95,90,85,80,75
-FirmF,Interest Expense,200,190,180,170,160,150
-FirmF,Other Non-Operating Items,50,50,50,50,50,50
-FirmF,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmF,Income Tax Expense,400,380,360,340,320,300
-FirmF,Net Income,1550,1400,1250,1100,950,800
-FirmG,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmG,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmG,Inventory,500,480,460,440,420,400
-FirmG,Other Current Assets,200,190,180,170,160,150
-FirmG,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmG,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmG,Intangible Assets,400,390,380,370,360,350
-FirmG,Other Non-Current Assets,300,290,280,270,260,250
-FirmG,Total Assets,6250,6050,5850,5680,5500,5350
-FirmG,Accounts Payable,400,390,380,370,360,350
-FirmG,Short-Term Debt,200,190,180,170,160,150
-FirmG,Other Current Liabilities,150,140,130,120,110,100
-FirmG,Total Current Liabilities,750,720,690,660,630,600
-FirmG,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmG,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmG,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmG,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmG,Retained Earnings,700,680,660,640,620,600
+FirmF,Total Equity,2990,3050,2960,3060,2920,2920
+FirmF,Total Liabilities and Equity,6250,6255,6275,6375,6050,6115
+FirmF,Revenues,13800,13600,14000,13200,13000,13500
+FirmF,Cost of Goods Sold (COGS),8700,8600,8900,8500,8200,8400
+FirmF,Gross Profit,5100,5000,5100,4700,4800,5100
+FirmF,Operating Expenses,3200,3050,3150,3000,3100,2950
+FirmF,Depreciation,430,420,440,410,400,415
+FirmF,Amortization,115,110,120,105,95,108
+FirmF,Total Operating Expenses,3745,3580,3710,3515,3595,3473
+FirmF,Operating Income,1355,1420,1390,1185,1205,1627
+FirmF,Interest Income,85,88,80,75,70,82
+FirmF,Interest Expense,210,205,215,220,200,195
+FirmF,Other Non-Operating Items,40,50,35,30,45,55
+FirmF,Pre-Tax Income,1270,1353,1280,1010,1120,1569
+FirmF,Income Tax Expense,320,350,310,280,290,360
+FirmF,Net Income,950,1003,970,730,830,1209
+FirmG,Cash and Cash Equivalents,1000,970,1050,940,960,980
+FirmG,Accounts Receivable,1300,1250,1280,1240,1210,1225
+FirmG,Inventory,600,610,580,620,590,605
+FirmG,Other Current Assets,340,350,320,330,310,325
+FirmG,Total Current Assets,3240,3180,3230,3130,3070,3135
+FirmG,Property Plant & Equipment,3450,3500,3400,3600,3550,3480
+FirmG,Intangible Assets,470,450,480,460,490,500
+FirmG,Other Non-Current Assets,400,390,420,410,380,395
+FirmG,Total Assets,7090,7020,7130,7100,6990,7010
+FirmG,Accounts Payable,610,600,630,595,615,620
+FirmG,Short-Term Debt,400,390,410,405,380,395
+FirmG,Other Current Liabilities,320,330,310,315,295,305
+FirmG,Total Current Liabilities,1330,1320,1350,1315,1290,1320
+FirmG,Long-Term Debt,1900,1850,1950,1920,1880,1830
+FirmG,Other Non-Current Liabilities,500,520,490,510,480,505
+FirmG,Total Liabilities,3730,3690,3790,3745,3650,3655
+FirmG,Shareholders’ Equity,2500,2450,2480,2550,2580,2530
+FirmG,Retained Earnings,560,540,570,530,520,550
 FirmG,Other Equity,300,300,300,300,300,300
-FirmG,Total Equity,3000,2930,2860,2790,2720,2650
-FirmG,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmG,Revenues,12000,11500,11000,10500,10000,9500
-FirmG,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmG,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmG,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmG,Depreciation,400,380,360,340,320,300
-FirmG,Amortization,100,95,90,85,80,75
-FirmG,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmG,Operating Income,2000,1825,1650,1475,1300,1125
-FirmG,Interest Income,100,95,90,85,80,75
-FirmG,Interest Expense,200,190,180,170,160,150
-FirmG,Other Non-Operating Items,50,50,50,50,50,50
-FirmG,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmG,Income Tax Expense,400,380,360,340,320,300
-FirmG,Net Income,1550,1400,1250,1100,950,800
-FirmH,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmH,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmH,Inventory,500,480,460,440,420,400
-FirmH,Other Current Assets,200,190,180,170,160,150
-FirmH,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmH,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmH,Intangible Assets,400,390,380,370,360,350
-FirmH,Other Non-Current Assets,300,290,280,270,260,250
-FirmH,Total Assets,6250,6050,5850,5680,5500,5350
-FirmH,Accounts Payable,400,390,380,370,360,350
-FirmH,Short-Term Debt,200,190,180,170,160,150
-FirmH,Other Current Liabilities,150,140,130,120,110,100
-FirmH,Total Current Liabilities,750,720,690,660,630,600
-FirmH,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmH,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmH,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmH,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmH,Retained Earnings,700,680,660,640,620,600
-FirmH,Other Equity,300,300,300,300,300,300
-FirmH,Total Equity,3000,2930,2860,2790,2720,2650
-FirmH,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmH,Revenues,12000,11500,11000,10500,10000,9500
-FirmH,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmH,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmH,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmH,Depreciation,400,380,360,340,320,300
-FirmH,Amortization,100,95,90,85,80,75
-FirmH,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmH,Operating Income,2000,1825,1650,1475,1300,1125
-FirmH,Interest Income,100,95,90,85,80,75
-FirmH,Interest Expense,200,190,180,170,160,150
-FirmH,Other Non-Operating Items,50,50,50,50,50,50
-FirmH,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmH,Income Tax Expense,400,380,360,340,320,300
-FirmH,Net Income,1550,1400,1250,1100,950,800
-FirmI,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmI,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmI,Inventory,500,480,460,440,420,400
-FirmI,Other Current Assets,200,190,180,170,160,150
-FirmI,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmI,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmI,Intangible Assets,400,390,380,370,360,350
-FirmI,Other Non-Current Assets,300,290,280,270,260,250
-FirmI,Total Assets,6250,6050,5850,5680,5500,5350
-FirmI,Accounts Payable,400,390,380,370,360,350
-FirmI,Short-Term Debt,200,190,180,170,160,150
-FirmI,Other Current Liabilities,150,140,130,120,110,100
-FirmI,Total Current Liabilities,750,720,690,660,630,600
-FirmI,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmI,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmI,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmI,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmI,Retained Earnings,700,680,660,640,620,600
-FirmI,Other Equity,300,300,300,300,300,300
-FirmI,Total Equity,3000,2930,2860,2790,2720,2650
-FirmI,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmI,Revenues,12000,11500,11000,10500,10000,9500
-FirmI,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmI,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmI,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmI,Depreciation,400,380,360,340,320,300
-FirmI,Amortization,100,95,90,85,80,75
-FirmI,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmI,Operating Income,2000,1825,1650,1475,1300,1125
-FirmI,Interest Income,100,95,90,85,80,75
-FirmI,Interest Expense,200,190,180,170,160,150
-FirmI,Other Non-Operating Items,50,50,50,50,50,50
-FirmI,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmI,Income Tax Expense,400,380,360,340,320,300
-FirmI,Net Income,1550,1400,1250,1100,950,800
-FirmJ,Cash and Cash Equivalents,650,640,630,620,610,600
-FirmJ,Accounts Receivable,1200,1150,1100,1050,1000,950
-FirmJ,Inventory,500,480,460,440,420,400
-FirmJ,Other Current Assets,200,190,180,170,160,150
-FirmJ,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmJ,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
-FirmJ,Intangible Assets,400,390,380,370,360,350
-FirmJ,Other Non-Current Assets,300,290,280,270,260,250
-FirmJ,Total Assets,6250,6050,5850,5680,5500,5350
-FirmJ,Accounts Payable,400,390,380,370,360,350
-FirmJ,Short-Term Debt,200,190,180,170,160,150
-FirmJ,Other Current Liabilities,150,140,130,120,110,100
-FirmJ,Total Current Liabilities,750,720,690,660,630,600
-FirmJ,Long-Term Debt,1800,1750,1700,1650,1600,1550
-FirmJ,Other Non-Current Liabilities,500,480,460,440,420,400
-FirmJ,Total Liabilities,3050,2970,2890,2810,2730,2650
-FirmJ,Shareholders’ Equity,2000,1950,1900,1850,1800,1750
-FirmJ,Retained Earnings,700,680,660,640,620,600
-FirmJ,Other Equity,300,300,300,300,300,300
-FirmJ,Total Equity,3000,2930,2860,2790,2720,2650
-FirmJ,Total Liabilities and Equity,6050,5900,5750,5600,5450,5300
-FirmJ,Revenues,12000,11500,11000,10500,10000,9500
-FirmJ,Cost of Goods Sold (COGS),7000,6800,6600,6400,6200,6000
-FirmJ,Gross Profit,5000,4700,4400,4100,3800,3500
-FirmJ,Operating Expenses,2500,2400,2300,2200,2100,2000
-FirmJ,Depreciation,400,380,360,340,320,300
-FirmJ,Amortization,100,95,90,85,80,75
-FirmJ,Total Operating Expenses,3000,2875,2750,2625,2500,2375
-FirmJ,Operating Income,2000,1825,1650,1475,1300,1125
-FirmJ,Interest Income,100,95,90,85,80,75
-FirmJ,Interest Expense,200,190,180,170,160,150
-FirmJ,Other Non-Operating Items,50,50,50,50,50,50
-FirmJ,Pre-Tax Income,1950,1780,1610,1440,1270,1100
-FirmJ,Income Tax Expense,400,380,360,340,320,300
-FirmJ,Net Income,1550,1400,1250,1100,950,800
+FirmG,Total Equity,3360,3290,3350,3380,3400,3380
+FirmG,Total Liabilities and Equity,7090,6980,7140,7125,7050,7035
+FirmG,Revenues,14500,14000,14800,13800,13600,14200
+FirmG,Cost of Goods Sold (COGS),9200,8900,9350,8700,8600,8800
+FirmG,Gross Profit,5300,5100,5450,5100,5000,5400
+FirmG,Operating Expenses,3400,3200,3350,3300,3150,3200
+FirmG,Depreciation,470,460,480,450,420,440
+FirmG,Amortization,130,125,135,120,110,118
+FirmG,Total Operating Expenses,4000,3785,3965,3870,3680,3758
+FirmG,Operating Income,1300,1315,1485,1230,1320,1642
+FirmG,Interest Income,95,100,90,85,105,95
+FirmG,Interest Expense,220,210,225,230,215,205
+FirmG,Other Non-Operating Items,60,55,65,50,70,75
+FirmG,Pre-Tax Income,1135,1255,1285,1035,1140,1507
+FirmG,Income Tax Expense,320,350,340,270,300,400
+FirmG,Net Income,815,905,945,765,840,1107
+FirmH,Cash and Cash Equivalents,300,280,340,320,310,350
+FirmH,Accounts Receivable,800,820,790,780,830,810
+FirmH,Inventory,420,400,410,390,440,405
+FirmH,Other Current Assets,210,220,205,225,200,195
+FirmH,Total Current Assets,1730,1720,1745,1715,1780,1760
+FirmH,Property Plant & Equipment,2200,2250,2180,2300,2150,2240
+FirmH,Intangible Assets,320,310,325,300,340,330
+FirmH,Other Non-Current Assets,290,280,295,285,275,265
+FirmH,Total Assets,4060,4060,4045,4100,4045,4095
+FirmH,Accounts Payable,380,370,390,365,350,375
+FirmH,Short-Term Debt,150,145,160,140,155,165
+FirmH,Other Current Liabilities,140,150,135,125,130,145
+FirmH,Total Current Liabilities,670,665,685,630,635,685
+FirmH,Long-Term Debt,1200,1150,1250,1170,1220,1190
+FirmH,Other Non-Current Liabilities,400,380,420,410,395,405
+FirmH,Total Liabilities,2270,2195,2355,2210,2250,2280
+FirmH,Shareholders’ Equity,1300,1340,1250,1320,1280,1300
+FirmH,Retained Earnings,390,410,370,400,405,385
+FirmH,Other Equity,100,100,100,100,100,100
+FirmH,Total Equity,1790,1850,1720,1820,1785,1785
+FirmH,Total Liabilities and Equity,4060,4045,4075,4030,4035,4065
+FirmH,Revenues,8200,8100,8300,7900,7850,8050
+FirmH,Cost of Goods Sold (COGS),5200,5300,5100,5000,4900,5050
+FirmH,Gross Profit,3000,2800,3200,2900,2950,3000
+FirmH,Operating Expenses,2000,1950,2100,2050,1900,2000
+FirmH,Depreciation,300,310,295,285,280,290
+FirmH,Amortization,85,80,90,70,95,100
+FirmH,Total Operating Expenses,2385,2340,2485,2405,2275,2390
+FirmH,Operating Income,615,460,715,495,675,610
+FirmH,Interest Income,40,45,35,50,42,48
+FirmH,Interest Expense,160,165,150,155,145,160
+FirmH,Other Non-Operating Items,20,25,15,30,10,35
+FirmH,Pre-Tax Income,515,345,585,420,582,498
+FirmH,Income Tax Expense,155,105,160,110,130,120
+FirmH,Net Income,360,240,425,310,452,378
+FirmI,Cash and Cash Equivalents,750,790,720,770,740,710
+FirmI,Accounts Receivable,1350,1400,1300,1280,1320,1370
+FirmI,Inventory,700,680,710,695,750,730
+FirmI,Other Current Assets,350,340,360,330,370,355
+FirmI,Total Current Assets,3150,3210,3090,3075,3180,3165
+FirmI,Property Plant & Equipment,3600,3550,3650,3700,3500,3450
+FirmI,Intangible Assets,510,500,520,480,550,495
+FirmI,Other Non-Current Assets,425,415,430,410,395,420
+FirmI,Total Assets,7185,7175,7190,7185,7075,7135
+FirmI,Accounts Payable,750,760,735,780,720,730
+FirmI,Short-Term Debt,420,400,440,430,390,405
+FirmI,Other Current Liabilities,380,395,370,355,385,375
+FirmI,Total Current Liabilities,1550,1555,1545,1565,1495,1510
+FirmI,Long-Term Debt,1950,1900,1970,2000,1920,1870
+FirmI,Other Non-Current Liabilities,550,540,560,535,520,545
+FirmI,Total Liabilities,4050,3995,4075,4100,3935,3925
+FirmI,Shareholders’ Equity,2450,2500,2430,2420,2450,2480
+FirmI,Retained Earnings,535,555,520,505,530,550
+FirmI,Other Equity,150,150,150,150,150,150
+FirmI,Total Equity,3135,3205,3100,3075,3130,3180
+FirmI,Total Liabilities and Equity,7185,7200,7175,7175,7065,7105
+FirmI,Revenues,15000,14700,15400,14900,14000,14500
+FirmI,Cost of Goods Sold (COGS),9700,9500,9900,9400,9000,9200
+FirmI,Gross Profit,5300,5200,5500,5500,5000,5300
+FirmI,Operating Expenses,3450,3400,3550,3300,3150,3350
+FirmI,Depreciation,470,450,480,490,460,445
+FirmI,Amortization,125,120,130,115,110,118
+FirmI,Total Operating Expenses,4045,3970,4160,3905,3720,3913
+FirmI,Operating Income,1255,1230,1340,1595,1280,1387
+FirmI,Interest Income,110,105,115,95,90,100
+FirmI,Interest Expense,230,240,220,225,210,215
+FirmI,Other Non-Operating Items,65,60,70,55,75,80
+FirmI,Pre-Tax Income,1200,1135,1265,1470,1125,1272
+FirmI,Income Tax Expense,380,345,380,450,330,360
+FirmI,Net Income,820,790,885,1020,795,912
+FirmJ,Cash and Cash Equivalents,620,640,580,660,600,590
+FirmJ,Accounts Receivable,990,1010,970,980,950,1020
+FirmJ,Inventory,470,490,450,500,480,460
+FirmJ,Other Current Assets,210,225,200,240,220,230
+FirmJ,Total Current Assets,2290,2365,2200,2380,2250,2300
+FirmJ,Property Plant & Equipment,2650,2700,2600,2750,2800,2720
+FirmJ,Intangible Assets,340,330,350,320,345,355
+FirmJ,Other Non-Current Assets,290,285,295,300,280,310
+FirmJ,Total Assets,5230,5280,5195,5300,5250,5285
+FirmJ,Accounts Payable,510,500,520,540,490,515
+FirmJ,Short-Term Debt,270,280,260,285,275,295
+FirmJ,Other Current Liabilities,220,230,210,240,225,215
+FirmJ,Total Current Liabilities,1000,1010,990,1065,990,1025
+FirmJ,Long-Term Debt,1400,1350,1450,1420,1380,1430
+FirmJ,Other Non-Current Liabilities,440,420,460,450,430,445
+FirmJ,Total Liabilities,2840,2780,2900,2935,2800,2900
+FirmJ,Shareholders’ Equity,1800,1850,1750,1820,1840,1800
+FirmJ,Retained Earnings,450,470,430,425,460,435
+FirmJ,Other Equity,150,150,150,150,150,150
+FirmJ,Total Equity,2400,2470,2330,2395,2450,2385
+FirmJ,Total Liabilities and Equity,5240,5250,5230,5330,5250,5285
+FirmJ,Revenues,10800,10500,11000,10300,10000,10700
+FirmJ,Cost of Goods Sold (COGS),6900,6800,7000,6600,6400,6750
+FirmJ,Gross Profit,3900,3700,4000,3700,3600,3950
+FirmJ,Operating Expenses,2400,2450,2300,2500,2250,2350
+FirmJ,Depreciation,360,350,370,340,320,330
+FirmJ,Amortization,95,85,100,75,80,90
+FirmJ,Total Operating Expenses,2855,2885,2770,2915,2650,2770
+FirmJ,Operating Income,1045,815,1230,785,950,1180
+FirmJ,Interest Income,75,80,70,65,85,75
+FirmJ,Interest Expense,185,190,180,170,160,165
+FirmJ,Other Non-Operating Items,50,45,40,55,35,60
+FirmJ,Pre-Tax Income,985,660,1120,625,890,1030
+FirmJ,Income Tax Expense,250,200,280,180,250,270
+FirmJ,Net Income,735,460,840,445,640,760
