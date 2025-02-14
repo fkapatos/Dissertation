@@ -34,6 +34,7 @@ FirmA,Other Non-Operating Items,40,50,55,45,35,60
 FirmA,Pre-Tax Income,1730,2005,1665,1215,550,795
 FirmA,Income Tax Expense,400,450,380,350,150,250
 FirmA,Net Income,1330,1555,1285,865,400,545
+
 FirmB,Cash and Cash Equivalents,720,600,620,580,540,700
 FirmB,Accounts Receivable,950,980,930,1050,1000,990
 FirmB,Inventory,420,410,430,380,470,450
@@ -69,6 +70,7 @@ FirmB,Other Non-Operating Items,30,35,25,40,45,20
 FirmB,Pre-Tax Income,1390,1517,1218,788,1287,1290
 FirmB,Income Tax Expense,300,320,250,210,280,250
 FirmB,Net Income,1090,1197,968,578,1007,1040
+
 FirmC,Cash and Cash Equivalents,500,540,480,530,560,450
 FirmC,Accounts Receivable,1050,990,970,1100,950,960
 FirmC,Inventory,460,450,420,400,430,410
@@ -104,6 +106,7 @@ FirmC,Other Non-Operating Items,45,40,35,50,55,30
 FirmC,Pre-Tax Income,1225,1350,995,620,400,1215
 FirmC,Income Tax Expense,260,285,210,180,120,250
 FirmC,Net Income,965,1065,785,440,280,965
+
 FirmD,Cash and Cash Equivalents,800,820,780,750,830,790
 FirmD,Accounts Receivable,1250,1200,1280,1220,1180,1260
 FirmD,Inventory,550,530,560,520,540,580
@@ -139,6 +142,7 @@ FirmD,Other Non-Operating Items,55,50,45,60,40,65
 FirmD,Pre-Tax Income,1345,1030,910,375,795,1065
 FirmD,Income Tax Expense,380,350,300,140,300,330
 FirmD,Net Income,965,680,610,235,495,735
+
 FirmE,Cash and Cash Equivalents,400,420,390,450,410,430
 FirmE,Accounts Receivable,930,950,920,880,960,975
 FirmE,Inventory,480,500,460,470,520,495
@@ -174,6 +178,7 @@ FirmE,Other Non-Operating Items,30,20,35,40,15,25
 FirmE,Pre-Tax Income,615,605,640,610,320,300
 FirmE,Income Tax Expense,185,175,160,170,100,90
 FirmE,Net Income,430,430,480,440,220,210
+
 FirmF,Cash and Cash Equivalents,900,860,920,880,830,950
 FirmF,Accounts Receivable,1150,1200,1120,1160,1100,1140
 FirmF,Inventory,550,530,540,560,590,520
@@ -209,6 +214,7 @@ FirmF,Other Non-Operating Items,40,50,35,30,45,55
 FirmF,Pre-Tax Income,1270,1353,1280,1010,1120,1569
 FirmF,Income Tax Expense,320,350,310,280,290,360
 FirmF,Net Income,950,1003,970,730,830,1209
+
 FirmG,Cash and Cash Equivalents,1000,970,1050,940,960,980
 FirmG,Accounts Receivable,1300,1250,1280,1240,1210,1225
 FirmG,Inventory,600,610,580,620,590,605
@@ -244,6 +250,7 @@ FirmG,Other Non-Operating Items,60,55,65,50,70,75
 FirmG,Pre-Tax Income,1135,1255,1285,1035,1140,1507
 FirmG,Income Tax Expense,320,350,340,270,300,400
 FirmG,Net Income,815,905,945,765,840,1107
+
 FirmH,Cash and Cash Equivalents,300,280,340,320,310,350
 FirmH,Accounts Receivable,800,820,790,780,830,810
 FirmH,Inventory,420,400,410,390,440,405
@@ -279,6 +286,7 @@ FirmH,Other Non-Operating Items,20,25,15,30,10,35
 FirmH,Pre-Tax Income,515,345,585,420,582,498
 FirmH,Income Tax Expense,155,105,160,110,130,120
 FirmH,Net Income,360,240,425,310,452,378
+
 FirmI,Cash and Cash Equivalents,750,790,720,770,740,710
 FirmI,Accounts Receivable,1350,1400,1300,1280,1320,1370
 FirmI,Inventory,700,680,710,695,750,730
@@ -314,6 +322,7 @@ FirmI,Other Non-Operating Items,65,60,70,55,75,80
 FirmI,Pre-Tax Income,1200,1135,1265,1470,1125,1272
 FirmI,Income Tax Expense,380,345,380,450,330,360
 FirmI,Net Income,820,790,885,1020,795,912
+
 FirmJ,Cash and Cash Equivalents,620,640,580,660,600,590
 FirmJ,Accounts Receivable,990,1010,970,980,950,1020
 FirmJ,Inventory,470,490,450,500,480,460
