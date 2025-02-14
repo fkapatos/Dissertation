@@ -4,7 +4,7 @@ FirmA,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmA,Inventory,500,480,460,440,420,400
 FirmA,Other Current Assets,200,190,180,170,160,150
 FirmA,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmA,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmA,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmA,Intangible Assets,400,390,380,370,360,350
 FirmA,Other Non-Current Assets,300,290,280,270,260,250
 FirmA,Total Assets,6250,6050,5850,5680,5500,5350
@@ -39,7 +39,7 @@ FirmB,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmB,Inventory,500,480,460,440,420,400
 FirmB,Other Current Assets,200,190,180,170,160,150
 FirmB,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmB,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmB,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmB,Intangible Assets,400,390,380,370,360,350
 FirmB,Other Non-Current Assets,300,290,280,270,260,250
 FirmB,Total Assets,6250,6050,5850,5680,5500,5350
@@ -74,7 +74,7 @@ FirmC,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmC,Inventory,500,480,460,440,420,400
 FirmC,Other Current Assets,200,190,180,170,160,150
 FirmC,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmC,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmC,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmC,Intangible Assets,400,390,380,370,360,350
 FirmC,Other Non-Current Assets,300,290,280,270,260,250
 FirmC,Total Assets,6250,6050,5850,5680,5500,5350
@@ -109,7 +109,7 @@ FirmD,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmD,Inventory,500,480,460,440,420,400
 FirmD,Other Current Assets,200,190,180,170,160,150
 FirmD,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmD,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmD,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmD,Intangible Assets,400,390,380,370,360,350
 FirmD,Other Non-Current Assets,300,290,280,270,260,250
 FirmD,Total Assets,6250,6050,5850,5680,5500,5350
@@ -144,7 +144,7 @@ FirmE,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmE,Inventory,500,480,460,440,420,400
 FirmE,Other Current Assets,200,190,180,170,160,150
 FirmE,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmE,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmE,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmE,Intangible Assets,400,390,380,370,360,350
 FirmE,Other Non-Current Assets,300,290,280,270,260,250
 FirmE,Total Assets,6250,6050,5850,5680,5500,5350
@@ -179,7 +179,7 @@ FirmF,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmF,Inventory,500,480,460,440,420,400
 FirmF,Other Current Assets,200,190,180,170,160,150
 FirmF,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmF,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmF,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmF,Intangible Assets,400,390,380,370,360,350
 FirmF,Other Non-Current Assets,300,290,280,270,260,250
 FirmF,Total Assets,6250,6050,5850,5680,5500,5350
@@ -214,7 +214,7 @@ FirmG,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmG,Inventory,500,480,460,440,420,400
 FirmG,Other Current Assets,200,190,180,170,160,150
 FirmG,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmG,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmG,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmG,Intangible Assets,400,390,380,370,360,350
 FirmG,Other Non-Current Assets,300,290,280,270,260,250
 FirmG,Total Assets,6250,6050,5850,5680,5500,5350
@@ -249,7 +249,7 @@ FirmH,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmH,Inventory,500,480,460,440,420,400
 FirmH,Other Current Assets,200,190,180,170,160,150
 FirmH,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmH,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmH,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmH,Intangible Assets,400,390,380,370,360,350
 FirmH,Other Non-Current Assets,300,290,280,270,260,250
 FirmH,Total Assets,6250,6050,5850,5680,5500,5350
@@ -284,7 +284,7 @@ FirmI,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmI,Inventory,500,480,460,440,420,400
 FirmI,Other Current Assets,200,190,180,170,160,150
 FirmI,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmI,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmI,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmI,Intangible Assets,400,390,380,370,360,350
 FirmI,Other Non-Current Assets,300,290,280,270,260,250
 FirmI,Total Assets,6250,6050,5850,5680,5500,5350
@@ -319,7 +319,7 @@ FirmJ,Accounts Receivable,1200,1150,1100,1050,1000,950
 FirmJ,Inventory,500,480,460,440,420,400
 FirmJ,Other Current Assets,200,190,180,170,160,150
 FirmJ,Total Current Assets,2550,2460,2370,2290,2190,2100
-FirmJ,Property, Plant & Equipment,3000,2900,2800,2700,2600,2500
+FirmJ,Property Plant & Equipment,3000,2900,2800,2700,2600,2500
 FirmJ,Intangible Assets,400,390,380,370,360,350
 FirmJ,Other Non-Current Assets,300,290,280,270,260,250
 FirmJ,Total Assets,6250,6050,5850,5680,5500,5350
