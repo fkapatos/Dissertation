@@ -1,3 +1,4 @@
+
 Firm,Line Item,2019
 AAPL,Cash and Cash Equivalents,48844000000.0
 AAPL,Accounts Receivable,45804000000.0
@@ -21,8 +22,7 @@ AAPL,Revenues,260174000000.0
 AAPL,Cost of Goods Sold (COGS),161782000000.0
 AAPL,Gross Profit,98392000000.0
 AAPL,Operating Expenses,34040000000.0
-AAPL,Depreciation,11300000000.0
-AAPL,Amortization,
+AAPL,Depreciation and Amortization,11300000000.0
 AAPL,Total Operating Expenses,
 AAPL,Operating Income,63930000000.0
 AAPL,Interest Income,4961000000.0
@@ -53,8 +53,7 @@ AMZN,Revenues,280522000000.0
 AMZN,Cost of Goods Sold (COGS),165536000000.0
 AMZN,Gross Profit,114986000000.0
 AMZN,Operating Expenses,100445000000.0
-AMZN,Depreciation,21789000000.0
-AMZN,Amortization,
+AMZN,Depreciation and Amortization,21789000000.0
 AMZN,Total Operating Expenses,
 AMZN,Operating Income,14541000000.0
 AMZN,Interest Income,832000000.0
@@ -85,8 +84,7 @@ FB,Revenues,70697000000.0
 FB,Cost of Goods Sold (COGS),12770000000.0
 FB,Gross Profit,57927000000.0
 FB,Operating Expenses,33941000000.0
-FB,Depreciation,5741000000.0
-FB,Amortization,
+FB,Depreciation and Amortization,5741000000.0
 FB,Total Operating Expenses,
 FB,Operating Income,28986000000.0
 FB,Interest Income,924000000.0
@@ -117,8 +115,7 @@ GOOGL,Revenues,161857000000.0
 GOOGL,Cost of Goods Sold (COGS),71896000000.0
 GOOGL,Gross Profit,89961000000.0
 GOOGL,Operating Expenses,54033000000.0
-GOOGL,Depreciation,11781000000.0
-GOOGL,Amortization,
+GOOGL,Depreciation and Amortization,11781000000.0
 GOOGL,Total Operating Expenses,
 GOOGL,Operating Income,34231000000.0
 GOOGL,Interest Income,2427000000.0
@@ -149,8 +146,7 @@ JPM,Revenues,115720000000.0
 JPM,Cost of Goods Sold (COGS),0.0
 JPM,Gross Profit,115720000000.0
 JPM,Operating Expenses,65268000000.0
-JPM,Depreciation,8368000000.0
-JPM,Amortization,
+JPM,Depreciation and Amortization,8368000000.0
 JPM,Total Operating Expenses,
 JPM,Operating Income,49952000000.0
 JPM,Interest Income,84040000000.0
@@ -181,8 +177,7 @@ KO,Revenues,37266000000.0
 KO,Cost of Goods Sold (COGS),14619000000.0
 KO,Gross Profit,22647000000.0
 KO,Operating Expenses,12561000000.0
-KO,Depreciation,1365000000.0
-KO,Amortization,
+KO,Depreciation and Amortization,1365000000.0
 KO,Total Operating Expenses,
 KO,Operating Income,10086000000.0
 KO,Interest Income,563000000.0
@@ -213,8 +208,7 @@ MSFT,Revenues,125843000000.0
 MSFT,Cost of Goods Sold (COGS),42910000000.0
 MSFT,Gross Profit,82933000000.0
 MSFT,Operating Expenses,39974000000.0
-MSFT,Depreciation,11600000000.0
-MSFT,Amortization,
+MSFT,Depreciation and Amortization,11600000000.0
 MSFT,Total Operating Expenses,
 MSFT,Operating Income,42959000000.0
 MSFT,Interest Income,2762000000.0
@@ -245,8 +239,7 @@ NVDA,Revenues,11716000000.0
 NVDA,Cost of Goods Sold (COGS),4545000000.0
 NVDA,Gross Profit,7171000000.0
 NVDA,Operating Expenses,3367000000.0
-NVDA,Depreciation,262000000.0
-NVDA,Amortization,
+NVDA,Depreciation and Amortization,262000000.0
 NVDA,Total Operating Expenses,
 NVDA,Operating Income,3804000000.0
 NVDA,Interest Income,136000000.0
@@ -277,8 +270,7 @@ TSLA,Revenues,24578000000.0
 TSLA,Cost of Goods Sold (COGS),20509000000.0
 TSLA,Gross Profit,4069000000.0
 TSLA,Operating Expenses,4000000000.0
-TSLA,Depreciation,2154000000.0
-TSLA,Amortization,
+TSLA,Depreciation and Amortization,2154000000.0
 TSLA,Total Operating Expenses,
 TSLA,Operating Income,-69000000.0
 TSLA,Interest Income,44000000.0
@@ -309,8 +301,7 @@ V,Revenues,22977000000.0
 V,Cost of Goods Sold (COGS),4165000000.0
 V,Gross Profit,18812000000.0
 V,Operating Expenses,3411000000.0
-V,Depreciation,656000000.0
-V,Amortization,
+V,Depreciation and Amortization,656000000.0
 V,Total Operating Expenses,
 V,Operating Income,15001000000.0
 V,Interest Income,0.0
