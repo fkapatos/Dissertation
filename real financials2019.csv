@@ -1,0 +1,321 @@
+Firm,Line Item,2019
+AAPL,Cash and Cash Equivalents,48844000000.0
+AAPL,Accounts Receivable,45804000000.0
+AAPL,Inventory,4106000000.0
+AAPL,Other Current Assets,12352000000.0
+AAPL,Total Current Assets,162819000000.0
+AAPL,Property Plant & Equipment,
+AAPL,Intangible Assets,0.0
+AAPL,Other Non-Current Assets,32978000000.0
+AAPL,Total Assets,338516000000.0
+AAPL,Accounts Payable,46236000000.0
+AAPL,Short-Term Debt,16240000000.0
+AAPL,Other Current Liabilities,37720000000.0
+AAPL,Total Current Liabilities,105718000000.0
+AAPL,Long-Term Debt,91807000000.0
+AAPL,Other Non-Current Liabilities,50503000000.0
+AAPL,Total Liabilities,248028000000.0
+AAPL,Total Equity,90488000000.0
+AAPL,Total Liabilities and Equity,338516000000.0
+AAPL,Revenues,260174000000.0
+AAPL,Cost of Goods Sold (COGS),161782000000.0
+AAPL,Gross Profit,98392000000.0
+AAPL,Operating Expenses,34040000000.0
+AAPL,Depreciation,11300000000.0
+AAPL,Amortization,
+AAPL,Total Operating Expenses,
+AAPL,Operating Income,63930000000.0
+AAPL,Interest Income,4961000000.0
+AAPL,Interest Expense,3576000000.0
+AAPL,Other Non-Operating Items,
+AAPL,Pre-Tax Income,65737000000.0
+AAPL,Income Tax Expense,10481000000.0
+AAPL,Net Income,55256000000.0
+AMZN,Cash and Cash Equivalents,36092000000.0
+AMZN,Accounts Receivable,20816000000.0
+AMZN,Inventory,20497000000.0
+AMZN,Other Current Assets,0.0
+AMZN,Total Current Assets,96334000000.0
+AMZN,Property Plant & Equipment,
+AMZN,Intangible Assets,4049000000.0
+AMZN,Other Non-Current Assets,11554000000.0
+AMZN,Total Assets,225248000000.0
+AMZN,Accounts Payable,47183000000.0
+AMZN,Short-Term Debt,0.0
+AMZN,Other Current Liabilities,32439000000.0
+AMZN,Total Current Liabilities,87812000000.0
+AMZN,Long-Term Debt,63205000000.0
+AMZN,Other Non-Current Liabilities,12171000000.0
+AMZN,Total Liabilities,163188000000.0
+AMZN,Total Equity,62060000000.0
+AMZN,Total Liabilities and Equity,225248000000.0
+AMZN,Revenues,280522000000.0
+AMZN,Cost of Goods Sold (COGS),165536000000.0
+AMZN,Gross Profit,114986000000.0
+AMZN,Operating Expenses,100445000000.0
+AMZN,Depreciation,21789000000.0
+AMZN,Amortization,
+AMZN,Total Operating Expenses,
+AMZN,Operating Income,14541000000.0
+AMZN,Interest Income,832000000.0
+AMZN,Interest Expense,1600000000.0
+AMZN,Other Non-Operating Items,
+AMZN,Pre-Tax Income,13976000000.0
+AMZN,Income Tax Expense,2374000000.0
+AMZN,Net Income,11588000000.0
+FB,Cash and Cash Equivalents,19079000000.0
+FB,Accounts Receivable,9518000000.0
+FB,Inventory,0.0
+FB,Other Current Assets,1844000000.0
+FB,Total Current Assets,66225000000.0
+FB,Property Plant & Equipment,
+FB,Intangible Assets,894000000.0
+FB,Other Non-Current Assets,2759000000.0
+FB,Total Assets,133376000000.0
+FB,Accounts Payable,1363000000.0
+FB,Short-Term Debt,800000000.0
+FB,Other Current Liabilities,11997000000.0
+FB,Total Current Liabilities,15053000000.0
+FB,Long-Term Debt,9524000000.0
+FB,Other Non-Current Liabilities,6706000000.0
+FB,Total Liabilities,32322000000.0
+FB,Total Equity,101054000000.0
+FB,Total Liabilities and Equity,133376000000.0
+FB,Revenues,70697000000.0
+FB,Cost of Goods Sold (COGS),12770000000.0
+FB,Gross Profit,57927000000.0
+FB,Operating Expenses,33941000000.0
+FB,Depreciation,5741000000.0
+FB,Amortization,
+FB,Total Operating Expenses,
+FB,Operating Income,28986000000.0
+FB,Interest Income,924000000.0
+FB,Interest Expense,20000000.0
+FB,Other Non-Operating Items,
+FB,Pre-Tax Income,24812000000.0
+FB,Income Tax Expense,6327000000.0
+FB,Net Income,18485000000.0
+GOOGL,Cash and Cash Equivalents,18498000000.0
+GOOGL,Accounts Receivable,27492000000.0
+GOOGL,Inventory,999000000.0
+GOOGL,Other Current Assets,4412000000.0
+GOOGL,Total Current Assets,152578000000.0
+GOOGL,Property Plant & Equipment,
+GOOGL,Intangible Assets,1979000000.0
+GOOGL,Other Non-Current Assets,2342000000.0
+GOOGL,Total Assets,275909000000.0
+GOOGL,Accounts Payable,5561000000.0
+GOOGL,Short-Term Debt,1199000000.0
+GOOGL,Other Current Liabilities,36279000000.0
+GOOGL,Total Current Liabilities,45221000000.0
+GOOGL,Long-Term Debt,24982000000.0
+GOOGL,Other Non-Current Liabilities,2205000000.0
+GOOGL,Total Liabilities,74467000000.0
+GOOGL,Total Equity,201442000000.0
+GOOGL,Total Liabilities and Equity,275909000000.0
+GOOGL,Revenues,161857000000.0
+GOOGL,Cost of Goods Sold (COGS),71896000000.0
+GOOGL,Gross Profit,89961000000.0
+GOOGL,Operating Expenses,54033000000.0
+GOOGL,Depreciation,11781000000.0
+GOOGL,Amortization,
+GOOGL,Total Operating Expenses,
+GOOGL,Operating Income,34231000000.0
+GOOGL,Interest Income,2427000000.0
+GOOGL,Interest Expense,100000000.0
+GOOGL,Other Non-Operating Items,
+GOOGL,Pre-Tax Income,39625000000.0
+GOOGL,Income Tax Expense,5282000000.0
+GOOGL,Net Income,34343000000.0
+JPM,Cash and Cash Equivalents,263631000000.0
+JPM,Accounts Receivable,72861000000.0
+JPM,Inventory,0.0
+JPM,Other Current Assets,459988000000.0
+JPM,Total Current Assets,1136854000000.0
+JPM,Property Plant & Equipment,
+JPM,Intangible Assets,5518000000.0
+JPM,Other Non-Current Assets,0.0
+JPM,Total Assets,2687379000000.0
+JPM,Accounts Payable,118375000000.0
+JPM,Short-Term Debt,40920000000.0
+JPM,Other Current Liabilities,-118375000000.0
+JPM,Total Current Liabilities,251327000000.0
+JPM,Long-Term Debt,291498000000.0
+JPM,Other Non-Current Liabilities,2093631000000.0
+JPM,Total Liabilities,2426049000000.0
+JPM,Total Equity,261330000000.0
+JPM,Total Liabilities and Equity,2687379000000.0
+JPM,Revenues,115720000000.0
+JPM,Cost of Goods Sold (COGS),0.0
+JPM,Gross Profit,115720000000.0
+JPM,Operating Expenses,65268000000.0
+JPM,Depreciation,8368000000.0
+JPM,Amortization,
+JPM,Total Operating Expenses,
+JPM,Operating Income,49952000000.0
+JPM,Interest Income,84040000000.0
+JPM,Interest Expense,26795000000.0
+JPM,Other Non-Operating Items,
+JPM,Pre-Tax Income,44866000000.0
+JPM,Income Tax Expense,8435000000.0
+JPM,Net Income,36431000000.0
+KO,Cash and Cash Equivalents,6480000000.0
+KO,Accounts Receivable,3971000000.0
+KO,Inventory,3379000000.0
+KO,Other Current Assets,3772000000.0
+KO,Total Current Assets,20411000000.0
+KO,Property Plant & Equipment,
+KO,Intangible Assets,10002000000.0
+KO,Other Non-Current Assets,6075000000.0
+KO,Total Assets,86381000000.0
+KO,Accounts Payable,3804000000.0
+KO,Short-Term Debt,15247000000.0
+KO,Other Current Liabilities,7508000000.0
+KO,Total Current Liabilities,26973000000.0
+KO,Long-Term Debt,28627000000.0
+KO,Other Non-Current Liabilities,7399000000.0
+KO,Total Liabilities,65283000000.0
+KO,Total Equity,21098000000.0
+KO,Total Liabilities and Equity,86381000000.0
+KO,Revenues,37266000000.0
+KO,Cost of Goods Sold (COGS),14619000000.0
+KO,Gross Profit,22647000000.0
+KO,Operating Expenses,12561000000.0
+KO,Depreciation,1365000000.0
+KO,Amortization,
+KO,Total Operating Expenses,
+KO,Operating Income,10086000000.0
+KO,Interest Income,563000000.0
+KO,Interest Expense,946000000.0
+KO,Other Non-Operating Items,
+KO,Pre-Tax Income,10786000000.0
+KO,Income Tax Expense,1801000000.0
+KO,Net Income,8920000000.0
+MSFT,Cash and Cash Equivalents,11356000000.0
+MSFT,Accounts Receivable,29524000000.0
+MSFT,Inventory,2063000000.0
+MSFT,Other Current Assets,10133000000.0
+MSFT,Total Current Assets,175552000000.0
+MSFT,Property Plant & Equipment,
+MSFT,Intangible Assets,7750000000.0
+MSFT,Other Non-Current Assets,14723000000.0
+MSFT,Total Assets,286556000000.0
+MSFT,Accounts Payable,9382000000.0
+MSFT,Short-Term Debt,7348000000.0
+MSFT,Other Current Liabilities,14349000000.0
+MSFT,Total Current Liabilities,69420000000.0
+MSFT,Long-Term Debt,79107000000.0
+MSFT,Other Non-Current Liabilities,30936000000.0
+MSFT,Total Liabilities,184226000000.0
+MSFT,Total Equity,102330000000.0
+MSFT,Total Liabilities and Equity,286556000000.0
+MSFT,Revenues,125843000000.0
+MSFT,Cost of Goods Sold (COGS),42910000000.0
+MSFT,Gross Profit,82933000000.0
+MSFT,Operating Expenses,39974000000.0
+MSFT,Depreciation,11600000000.0
+MSFT,Amortization,
+MSFT,Total Operating Expenses,
+MSFT,Operating Income,42959000000.0
+MSFT,Interest Income,2762000000.0
+MSFT,Interest Expense,2686000000.0
+MSFT,Other Non-Operating Items,
+MSFT,Pre-Tax Income,43688000000.0
+MSFT,Income Tax Expense,4448000000.0
+MSFT,Net Income,39240000000.0
+NVDA,Cash and Cash Equivalents,782000000.0
+NVDA,Accounts Receivable,1424000000.0
+NVDA,Inventory,1575000000.0
+NVDA,Other Current Assets,272000000.0
+NVDA,Total Current Assets,10557000000.0
+NVDA,Property Plant & Equipment,
+NVDA,Intangible Assets,45000000.0
+NVDA,Other Non-Current Assets,668000000.0
+NVDA,Total Assets,13292000000.0
+NVDA,Accounts Payable,511000000.0
+NVDA,Short-Term Debt,0.0
+NVDA,Other Current Liabilities,635000000.0
+NVDA,Total Current Liabilities,1329000000.0
+NVDA,Long-Term Debt,1988000000.0
+NVDA,Other Non-Current Liabilities,547000000.0
+NVDA,Total Liabilities,3950000000.0
+NVDA,Total Equity,9342000000.0
+NVDA,Total Liabilities and Equity,13292000000.0
+NVDA,Revenues,11716000000.0
+NVDA,Cost of Goods Sold (COGS),4545000000.0
+NVDA,Gross Profit,7171000000.0
+NVDA,Operating Expenses,3367000000.0
+NVDA,Depreciation,262000000.0
+NVDA,Amortization,
+NVDA,Total Operating Expenses,
+NVDA,Operating Income,3804000000.0
+NVDA,Interest Income,136000000.0
+NVDA,Interest Expense,58000000.0
+NVDA,Other Non-Operating Items,
+NVDA,Pre-Tax Income,3896000000.0
+NVDA,Income Tax Expense,-245000000.0
+NVDA,Net Income,4141000000.0
+TSLA,Cash and Cash Equivalents,6268000000.0
+TSLA,Accounts Receivable,1324000000.0
+TSLA,Inventory,3552000000.0
+TSLA,Other Current Assets,959000000.0
+TSLA,Total Current Assets,12103000000.0
+TSLA,Property Plant & Equipment,
+TSLA,Intangible Assets,339000000.0
+TSLA,Other Non-Current Assets,1470000000.0
+TSLA,Total Assets,34309000000.0
+TSLA,Accounts Payable,3771000000.0
+TSLA,Short-Term Debt,2013000000.0
+TSLA,Other Current Liabilities,2383000000.0
+TSLA,Total Current Liabilities,10667000000.0
+TSLA,Long-Term Debt,12590000000.0
+TSLA,Other Non-Current Liabilities,1669000000.0
+TSLA,Total Liabilities,26199000000.0
+TSLA,Total Equity,8110000000.0
+TSLA,Total Liabilities and Equity,34309000000.0
+TSLA,Revenues,24578000000.0
+TSLA,Cost of Goods Sold (COGS),20509000000.0
+TSLA,Gross Profit,4069000000.0
+TSLA,Operating Expenses,4000000000.0
+TSLA,Depreciation,2154000000.0
+TSLA,Amortization,
+TSLA,Total Operating Expenses,
+TSLA,Operating Income,-69000000.0
+TSLA,Interest Income,44000000.0
+TSLA,Interest Expense,685000000.0
+TSLA,Other Non-Operating Items,
+TSLA,Pre-Tax Income,-665000000.0
+TSLA,Income Tax Expense,110000000.0
+TSLA,Net Income,-862000000.0
+V,Cash and Cash Equivalents,7838000000.0
+V,Accounts Receivable,4590000000.0
+V,Inventory,0.0
+V,Other Current Assets,4306000000.0
+V,Total Current Assets,20970000000.0
+V,Property Plant & Equipment,
+V,Intangible Assets,26780000000.0
+V,Other Non-Current Assets,4316000000.0
+V,Total Assets,72574000000.0
+V,Accounts Payable,156000000.0
+V,Short-Term Debt,0.0
+V,Other Current Liabilities,12932000000.0
+V,Total Current Liabilities,13415000000.0
+V,Long-Term Debt,16729000000.0
+V,Other Non-Current Liabilities,2939000000.0
+V,Total Liabilities,37890000000.0
+V,Total Equity,34684000000.0
+V,Total Liabilities and Equity,72574000000.0
+V,Revenues,22977000000.0
+V,Cost of Goods Sold (COGS),4165000000.0
+V,Gross Profit,18812000000.0
+V,Operating Expenses,3411000000.0
+V,Depreciation,656000000.0
+V,Amortization,
+V,Total Operating Expenses,
+V,Operating Income,15001000000.0
+V,Interest Income,0.0
+V,Interest Expense,533000000.0
+V,Other Non-Operating Items,
+V,Pre-Tax Income,14884000000.0
+V,Income Tax Expense,2804000000.0
+V,Net Income,12080000000.0
