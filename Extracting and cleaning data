@@ -29,7 +29,7 @@ symbols = [
 ]
 
 # Set your API key (replace with your actual API key)
-api_key = "mqpUIArHmo1f69yVkHbWeVTor8zKZsLO"
+api_key = "APIKEY"
 
 # Endpoints to retrieve many years of data (limit=30 so we can filter later)
 balance_sheet_endpoint = "https://financialmodelingprep.com/api/v3/balance-sheet-statement/{}?limit=30&apikey={}"
