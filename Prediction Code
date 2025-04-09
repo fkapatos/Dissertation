@@ -1,0 +1,217 @@
+import os
+import pandas as pd
+import time
+from openai import OpenAI
+import io
+from IPython.display import display
+
+# Load data (your CSV contains 8-year data)
+df = pd.read_csv('https://raw.githubusercontent.com/fkapatos/Dissertation/refs/heads/main/2022%20-%208%20years%20financial%20data')
+unique_firms = df['Firm'].unique()
+print("Firms found:", unique_firms)
+
+client = OpenAI(api_key="")
+
+###############################################################################
+# Define Balance Sheet & Income Statement Items
+###############################################################################
+balance_sheet_items = [
+    "Cash and Cash Equivalents",
+    "Accounts Receivable",
+    "Inventory",
+    "Other Current Assets",
+    "Total Current Assets",
+    "Property Plant & Equipment",
+    "Intangible Assets",
+    "Other Non-Current Assets",
+    "Total Assets",
+    "Accounts Payable",
+    "Short-Term Debt",
+    "Other Current Liabilities",
+    "Total Current Liabilities",
+    "Long-Term Debt",
+    "Other Non-Current Liabilities",
+    "Total Liabilities",
+    "Shareholders’ Equity",
+    "Retained Earnings",
+    "Other Equity",
+    "Total Equity",
+    "Total Liabilities and Equity"
+]
+
+income_statement_items = [
+    "Revenues",
+    "Cost of Goods Sold (COGS)",
+    "Gross Profit",
+    "Operating Expenses",
+    "Depreciation and Amortization",
+    "Total Operating Expenses",
+    "Operating Income",
+    "Interest Income",
+    "Interest Expense",
+    "Other Non-Operating Items",
+    "Pre-Tax Income",
+    "Income Tax Expense",
+    "Net Income"
+]
+
+###############################################################################
+# Prepare the Prompt for 8 Years of Data (t to t-7)
+###############################################################################
+# Use all eight columns from the CSV:
+year_cols = ["t", "t-1", "t-2", "t-3", "t-4", "t-5", "t-6", "t-7"]
+
+system_prompt_template = """\
+You are a financial analyst tasked with analyzing a company’s balance sheet and income statement 
+to predict whether its earnings will increase or decrease in the next fiscal year. You will follow 
+a step-by-step approach similar to that of a human analyst. Please treat the provided data as 
+ordered from the oldest (t-7) to the most recent (t), and as such you will be making a prediction 
+as to whether you think earnings will increase or decrease in year t+1.
+
+1. Identify notable changes and trends, focusing on the following from year t-7 to t:
+   - Revenues
+   - Cost of Goods Sold (COGS)
+   - Net Income
+   - Total Assets, Total Liabilities, and Total Equity
+
+2. Compute the following key financial ratios for each year from year t-7 to t, identifying any notable changes and trends:
+   - Gross Margin = (Revenues – COGS) / Revenues
+   - Operating Margin = Operating Income / Revenues
+   - Net Profit Margin = Net Income / Revenues
+   - Current Ratio = Current Assets / Current Liabilities
+   - Debt-to-Equity Ratio = Total Liabilities / Total Equity
+   - Return on Assets (ROA) = Net Income / Total Assets
+
+3. Generate hypotheses about the company’s financial performance, integrating the findings 
+   into a coherent explanation.
+
+4. Conclude with your prediction: do you predict the company’s earnings to INCREASE or DECREASE 
+   next fiscal year? Provide exactly one word at the end, either “increase” or “decrease”.
+"""
+
+results_list = []
+
+###############################################################################
+# Define a function to stream output from the model
+###############################################################################
+def stream_model_output(model, system_prompt, user_prompt):
+    """
+    Streams output from the model given a system prompt and a user prompt.
+    """
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
+    print(f"\n=== {model} ===")
+    start_time = time.time()
+    
+    response_text = ""
+    try:
+        stream = client.chat.completions.create(
+            model=model,
+            messages=messages,
+            stream=True
+        )
+        for chunk in stream:
+            content = chunk.choices[0].delta.content or ""
+            if content:
+                print(content, end="", flush=True)
+                response_text += content
+    except Exception as e:
+        print(f"\nOpenAI API error: {e}")
+        response_text = "ERROR"
+    
+    end_time = time.time()
+    print(f"\nTime taken: {end_time - start_time:.2f} seconds")
+    return response_text
+
+###############################################################################
+# Loop Over Firms, Build Prompt, and Get LLM Prediction using streaming output
+###############################################################################
+for firm in unique_firms:
+    # Subset data for this firm
+    firm_data = df[df["Firm"] == firm].copy()
+    
+    # Split into balance sheet vs. income statement
+    firm_bs = firm_data[firm_data["Line Item"].isin(balance_sheet_items)].copy()
+    firm_is = firm_data[firm_data["Line Item"].isin(income_statement_items)].copy()
+    
+    # Sort them in the same order as the lists
+    firm_bs["SortOrder"] = firm_bs["Line Item"].apply(lambda x: balance_sheet_items.index(x) if x in balance_sheet_items else 999)
+    firm_bs.sort_values("SortOrder", inplace=True)
+    
+    firm_is["SortOrder"] = firm_is["Line Item"].apply(lambda x: income_statement_items.index(x) if x in income_statement_items else 999)
+    firm_is.sort_values("SortOrder", inplace=True)
+    
+    # Build the balance sheet text using only the eight columns: t, t-1, ..., t-7.
+    balance_sheet_str = f"Balance Sheet (Firm: {firm}, Years t to t-7)\n\n"
+    balance_sheet_str += "Line Item"
+    for col in year_cols:
+        balance_sheet_str += f",\t{col}"
+    balance_sheet_str += "\n"
+    for _, row in firm_bs.iterrows():
+        line_item = row["Line Item"]
+        col_vals = [str(row.get(c, "")) for c in year_cols]
+        balance_sheet_str += f"{line_item},\t" + ",\t".join(col_vals) + "\n"
+    
+    # Build the income statement text using only the eight columns.
+    income_statement_str = f"\nIncome Statement (Firm: {firm}, Years t to t-7)\n\n"
+    income_statement_str += "Line Item"
+    for col in year_cols:
+        income_statement_str += f",\t{col}"
+    income_statement_str += "\n"
+    for _, row in firm_is.iterrows():
+        line_item = row["Line Item"]
+        col_vals = [str(row.get(c, "")) for c in year_cols]
+        income_statement_str += f"{line_item},\t" + ",\t".join(col_vals) + "\n"
+    
+    # Build the user prompt with final answer instructions (using all 8 years of data)
+    user_prompt = f"""
+Please analyze the following financial data for {firm}:
+
+{balance_sheet_str}
+{income_statement_str}
+
+Steps:
+1) Identify notable changes and trends across the eight years (from t-7 to t) in key items such as 
+   Revenues, COGS, Net Income, Total Assets, Total Liabilities, and Total Equity.
+2) Compute key financial ratios for each year:
+   - Gross Margin = (Revenues – COGS) / Revenues
+   - Operating Margin = Operating Income / Revenues
+   - Net Profit Margin = Net Income / Revenues
+   - Current Ratio = Current Assets / Current Liabilities
+   - Debt-to-Equity Ratio = Total Liabilities / Total Equity
+   - ROA = Net Income / Total Assets
+3) Generate hypotheses about the company’s financial performance based on these eight years.
+4) On a new line at the very end, output exactly one line that says:
+   Final Answer: increase
+   OR
+   Final Answer: decrease
+"""
+    
+    print(f"\n\n--- Processing firm: {firm} ---")
+    llm_text = stream_model_output("o3-mini", system_prompt_template, user_prompt)
+    
+    # Parse only the final answer line
+    lines = [line.strip() for line in llm_text.splitlines() if line.strip()]
+    final_line = lines[-1].lower() if lines else ""
+    print(f"\nDEBUG: Extracted Final Line for {firm}: '{final_line}'")
+    
+    if final_line == "final answer: increase":
+        llm_prediction = "increase"
+    elif final_line == "final answer: decrease":
+        llm_prediction = "decrease"
+    else:
+        llm_prediction = "ERROR"
+    
+    # Store the result
+    results_list.append({
+        "Firm": firm,
+        "LLM_Response": llm_text,
+        "LLM_Prediction": llm_prediction
+    })
+
+# Convert results to DataFrame & Inspect
+results_df = pd.DataFrame(results_list)
+print("\n===== LLM Predictions =====")
+print(results_df)
