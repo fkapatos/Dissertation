@@ -5,16 +5,14 @@ from openai import OpenAI
 import io
 from IPython.display import display
 
-# Load data (your CSV contains 8-year data)
-df = pd.read_csv('https://raw.githubusercontent.com/fkapatos/Dissertation/refs/heads/main/2022%20-%208%20years%20financial%20data')
+df = pd.read_csv('https://raw.githubusercontent.com/CSV-FILE')
 unique_firms = df['Firm'].unique()
 print("Firms found:", unique_firms)
 
 client = OpenAI(api_key="")
 
-###############################################################################
+
 # Define Balance Sheet & Income Statement Items
-###############################################################################
 balance_sheet_items = [
     "Cash and Cash Equivalents",
     "Accounts Receivable",
@@ -55,10 +53,8 @@ income_statement_items = [
     "Net Income"
 ]
 
-###############################################################################
-# Prepare the Prompt for 8 Years of Data (t to t-7)
-###############################################################################
-# Use all eight columns from the CSV:
+
+
 year_cols = ["t", "t-1", "t-2", "t-3", "t-4", "t-5", "t-6", "t-7"]
 
 system_prompt_template = """\
@@ -91,9 +87,7 @@ as to whether you think earnings will increase or decrease in year t+1.
 
 results_list = []
 
-###############################################################################
-# Define a function to stream output from the model
-###############################################################################
+
 def stream_model_output(model, system_prompt, user_prompt):
     """
     Streams output from the model given a system prompt and a user prompt.
@@ -125,25 +119,18 @@ def stream_model_output(model, system_prompt, user_prompt):
     print(f"\nTime taken: {end_time - start_time:.2f} seconds")
     return response_text
 
-###############################################################################
-# Loop Over Firms, Build Prompt, and Get LLM Prediction using streaming output
-###############################################################################
 for firm in unique_firms:
-    # Subset data for this firm
     firm_data = df[df["Firm"] == firm].copy()
     
-    # Split into balance sheet vs. income statement
     firm_bs = firm_data[firm_data["Line Item"].isin(balance_sheet_items)].copy()
     firm_is = firm_data[firm_data["Line Item"].isin(income_statement_items)].copy()
     
-    # Sort them in the same order as the lists
     firm_bs["SortOrder"] = firm_bs["Line Item"].apply(lambda x: balance_sheet_items.index(x) if x in balance_sheet_items else 999)
     firm_bs.sort_values("SortOrder", inplace=True)
     
     firm_is["SortOrder"] = firm_is["Line Item"].apply(lambda x: income_statement_items.index(x) if x in income_statement_items else 999)
     firm_is.sort_values("SortOrder", inplace=True)
     
-    # Build the balance sheet text using only the eight columns: t, t-1, ..., t-7.
     balance_sheet_str = f"Balance Sheet (Firm: {firm}, Years t to t-7)\n\n"
     balance_sheet_str += "Line Item"
     for col in year_cols:
@@ -154,7 +141,6 @@ for firm in unique_firms:
         col_vals = [str(row.get(c, "")) for c in year_cols]
         balance_sheet_str += f"{line_item},\t" + ",\t".join(col_vals) + "\n"
     
-    # Build the income statement text using only the eight columns.
     income_statement_str = f"\nIncome Statement (Firm: {firm}, Years t to t-7)\n\n"
     income_statement_str += "Line Item"
     for col in year_cols:
@@ -165,7 +151,6 @@ for firm in unique_firms:
         col_vals = [str(row.get(c, "")) for c in year_cols]
         income_statement_str += f"{line_item},\t" + ",\t".join(col_vals) + "\n"
     
-    # Build the user prompt with final answer instructions (using all 8 years of data)
     user_prompt = f"""
 Please analyze the following financial data for {firm}:
 
@@ -192,7 +177,6 @@ Steps:
     print(f"\n\n--- Processing firm: {firm} ---")
     llm_text = stream_model_output("o3-mini", system_prompt_template, user_prompt)
     
-    # Parse only the final answer line
     lines = [line.strip() for line in llm_text.splitlines() if line.strip()]
     final_line = lines[-1].lower() if lines else ""
     print(f"\nDEBUG: Extracted Final Line for {firm}: '{final_line}'")
@@ -204,14 +188,12 @@ Steps:
     else:
         llm_prediction = "ERROR"
     
-    # Store the result
     results_list.append({
         "Firm": firm,
         "LLM_Response": llm_text,
         "LLM_Prediction": llm_prediction
     })
 
-# Convert results to DataFrame & Inspect
 results_df = pd.DataFrame(results_list)
 print("\n===== LLM Predictions =====")
 print(results_df)
