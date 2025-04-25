@@ -12,7 +12,6 @@ print("Firms found:", unique_firms)
 client = OpenAI(api_key="")
 
 
-# Define Balance Sheet & Income Statement Items
 balance_sheet_items = [
     "Cash and Cash Equivalents",
     "Accounts Receivable",
