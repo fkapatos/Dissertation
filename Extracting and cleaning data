@@ -3,39 +3,27 @@ import pandas as pd
 import io
 from IPython.display import display
 
-# Helper function: Convert an integer to a lowercase alphabetical label.
 def int_to_alpha(n):
     result = ""
     while True:
         result = chr(n % 26 + ord('a')) + result
-        n = n // 26
+        n //= 26
         if n == 0:
             break
         n -= 1
     return result
 
-# List of 100 firm ticker symbols (the order you want)
-symbols = [
-    "AAPL", "NVDA", "MSFT", "AMZN", "GOOGL", "META", "TSLA", "AVGO", "BRK.B", "TSM",
-    "WMT", "JPM", "LLY", "V", "MA", "ORCL", "UNH", "COST", "XOM", "NFLX",
-    "HD", "PG", "JNJ", "BAC", "NVO", "ABBV", "SAP", "CRM", "TMUS", "ASML",
-    "KO", "BABA", "CVX", "PLTR", "WFC", "CSCO", "ACN", "IBM", "TM", "PM",
-    "AZN", "ABT", "GE", "MS", "MCD", "AXP", "LIN", "GS", "ISRG", "MRK",
-    "NVS", "SHEL", "TMO", "NOW", "BX", "ADBE", "DIS", "PEP", "HSBC", "QCOM",
-    "T", "AMD", "APP", "VZ", "PDD", "CAT", "RY", "ARM", "BKNG", "TXN",
-    "SHOP", "SPGI", "UBER", "INTU", "RTX", "C", "AMGN", "BSX", "PGR", "BLK",
-    "UNP", "HDB", "DHR", "MUFG", "SCHW", "SYK", "SONY", "PFE", "LOW", "NEE",
-    "TJX", "TTE", "BA", "AMAT", "UL", "SNY", "ANET", "CMCSA", "PANW", "BHP"
-]
 
-# Set your API key (replace with your actual API key)
+firms_df = pd.read_csv(csv_url)
+firms_2020 = firms_df[firms_df["Year"] == 2020]
+tickers = firms_2020["Ticker"].unique()
+print(f"Found {len(tickers)} tickers for 2020.")
+
 api_key = "APIKEY"
 
-# Endpoints to retrieve many years of data (limit=30 so we can filter later)
 balance_sheet_endpoint = "https://financialmodelingprep.com/api/v3/balance-sheet-statement/{}?limit=30&apikey={}"
 income_statement_endpoint = "https://financialmodelingprep.com/api/v3/income-statement/{}?limit=30&apikey={}"
 
-# Define mapping dictionaries in the desired order.
 bs_mapping = {
     "cashAndCashEquivalents": "Cash and Cash Equivalents",
     "netReceivables": "Accounts Receivable",
@@ -73,66 +61,46 @@ is_mapping = {
     "netIncome": "Net Income"
 }
 
-# We want data for 2011 to 2018 (inclusive): that's 8 years.
-# We'll label the columns as "t" (for 2018), "t-1" (for 2017), ..., "t-7" (for 2011).
+target_years = list(range(2013, 2021))  # [2013, 2014, ..., 2020]
 year_cols = ["t", "t-1", "t-2", "t-3", "t-4", "t-5", "t-6", "t-7"]
 
-# Dictionary to store the order for each firm (anonymized)
+results_list = []
+excluded_firms = []
 firm_order_dict = {}
 
-# List to store rows for all firms
-results_list = []
-
-# List to collect firms that do not have complete datasets
-excluded_firms = []
-
-for idx, symbol in enumerate(symbols):
+for idx, symbol in enumerate(tickers):
     print(f"Processing {symbol} ...")
     
-    # Build API URLs for the current firm
     bs_url = balance_sheet_endpoint.format(symbol, api_key)
     is_url = income_statement_endpoint.format(symbol, api_key)
     
-    # Retrieve data
-    bs_response = requests.get(bs_url)
-    is_response = requests.get(is_url)
+    try:
+        bs_response = requests.get(bs_url)
+        bs_response.raise_for_status()
+        is_response = requests.get(is_url)
+        is_response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error retrieving data for {symbol}: {e}")
+        excluded_firms.append(symbol)
+        continue
     
-    if bs_response.status_code != 200:
-        print(f"Error retrieving balance sheet data for {symbol}: {bs_response.text}")
-        excluded_firms.append(symbol)
-        continue
-    if is_response.status_code != 200:
-        print(f"Error retrieving income statement data for {symbol}: {is_response.text}")
-        excluded_firms.append(symbol)
-        continue
-        
     bs_data = bs_response.json()
     is_data = is_response.json()
     
-    # Filter records for years 2011 through 2018 (inclusive)
-    filtered_bs = [record for record in bs_data if 2011 <= int(record["date"][:4]) <= 2018]
-    filtered_is = [record for record in is_data if 2011 <= int(record["date"][:4]) <= 2018]
+    filtered_bs = [record for record in bs_data if int(record["date"][:4]) in target_years]
+    filtered_is = [record for record in is_data if int(record["date"][:4]) in target_years]
     
-    # Check if we have exactly 8 records for both BS and IS; if not, exclude this firm.
     if len(filtered_bs) != 8 or len(filtered_is) != 8:
-        print(f"Skipping {symbol} due to insufficient data. BS records: {len(filtered_bs)}, IS records: {len(filtered_is)}")
+        print(f"Skipping {symbol} due to insufficient records. BS: {len(filtered_bs)}, IS: {len(filtered_is)}")
         excluded_firms.append(symbol)
         continue
     
-    # Sort descending by date so that the most recent is first (i.e., 2018)
     filtered_bs.sort(key=lambda x: x["date"], reverse=True)
     filtered_is.sort(key=lambda x: x["date"], reverse=True)
     
-    # Take only the 8 most recent records (should correspond to 2018 down to 2011)
-    filtered_bs = filtered_bs[:8]
-    filtered_is = filtered_is[:8]
-    
-    # Anonymize the firm name using our helper function.
-    # (Now we want to anonymize, so we use int_to_alpha)
     firm_anonymized = f"Firm{int_to_alpha(idx)}"
-    firm_order_dict[firm_anonymized] = idx  # Store the original order
+    firm_order_dict[firm_anonymized] = idx  # record original order
     
-    # Process Balance Sheet Data: iterate over bs_mapping in the defined order
     for key, line_item in bs_mapping.items():
         row = {"Firm": firm_anonymized, "Line Item": line_item}
         for i, col in enumerate(year_cols):
@@ -143,7 +111,6 @@ for idx, symbol in enumerate(symbols):
             row[col] = value
         results_list.append(row)
     
-    # Process Income Statement Data similarly using is_mapping
     for key, line_item in is_mapping.items():
         row = {"Firm": firm_anonymized, "Line Item": line_item}
         for i, col in enumerate(year_cols):
@@ -154,35 +121,21 @@ for idx, symbol in enumerate(symbols):
             row[col] = value
         results_list.append(row)
 
-# Convert the list of rows into a DataFrame.
 final_df = pd.DataFrame(results_list)
 
-# Add temporary "Firm_Order" column based on our firm_order_dict mapping
 final_df["Firm_Order"] = final_df["Firm"].map(firm_order_dict)
+final_df.sort_values("Firm_Order", inplace=True)
+final_df.drop(columns=["Firm_Order"], inplace=True)
 
-# Add a temporary "SortOrder" column so that for each firm, Balance Sheet rows come before Income Statement rows.
-def temp_order(line_item):
-    return 0 if line_item in list(bs_mapping.values()) else 1
-
-final_df["SortOrder"] = final_df["Line Item"].apply(temp_order)
-
-# Now sort by the temporary columns
-final_df.sort_values(["Firm_Order", "SortOrder"], inplace=True)
-
-# Drop the temporary columns.
-final_df.drop(columns=["Firm_Order", "SortOrder"], inplace=True)
-
-# Display the final DataFrame for verification.
 display(final_df)
 
-# Convert the DataFrame to a CSV string using StringIO.
 csv_buffer = io.StringIO()
 final_df.to_csv(csv_buffer, index=False, encoding="utf-8-sig")
 csv_data = csv_buffer.getvalue()
 
-# Print the raw CSV data so you can copy it manually.
 print(csv_data)
+print("Excluded firms due to incomplete data:")
+print(excluded_firms)
 
-# Also, print the list of excluded firms.
 print("Excluded firms due to incomplete data:")
 print(excluded_firms)
