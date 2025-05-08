@@ -5,7 +5,7 @@ from openai import OpenAI
 import io
 from IPython.display import display
 
-df = pd.read_csv('https://raw.githubusercontent.com/CSV-FILE')
+df = pd.read_csv('https://raw.githubusercontent.com/CSV-FILE') #actual CSV files used redacted for security purposes
 unique_firms = df['Firm'].unique()
 print("Firms found:", unique_firms)
 
