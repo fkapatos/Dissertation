@@ -19,7 +19,7 @@ firms_2020 = firms_df[firms_df["Year"] == 2020]
 tickers = firms_2020["Ticker"].unique()
 print(f"Found {len(tickers)} tickers for 2020.")
 
-api_key = "APIKEY" #actual API key used redacted for securiyy purposes
+api_key = "APIKEY" #actual API key used redacted for security purposes
 
 balance_sheet_endpoint = "https://financialmodelingprep.com/api/v3/balance-sheet-statement/{}?limit=30&apikey={}"
 income_statement_endpoint = "https://financialmodelingprep.com/api/v3/income-statement/{}?limit=30&apikey={}"
