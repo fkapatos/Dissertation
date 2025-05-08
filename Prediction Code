@@ -9,7 +9,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/CSV-FILE')
 unique_firms = df['Firm'].unique()
 print("Firms found:", unique_firms)
 
-client = OpenAI(api_key="")
+client = OpenAI(api_key="") #actual API key used redacted for security purposes
 
 
 balance_sheet_items = [
