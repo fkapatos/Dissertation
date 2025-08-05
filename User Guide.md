@@ -1,6 +1,6 @@
-# 📘 User Guide
+# User Guide
 
-## 📌 Overview
+## Overview
 
 This guide walks you through how to use the two core scripts in this repository:
 
@@ -9,7 +9,7 @@ This guide walks you through how to use the two core scripts in this repository:
 
 ---
 
-## ⚙️ Step 1: Environment Setup
+## Step 1: Environment Setup
 
 Install the required packages using pip:
 
@@ -25,7 +25,7 @@ Replace the placeholders (`"APIKEY"` and `api_key=""`) in the scripts with your 
 
 ---
 
-## 🧼 Step 2: Clean and Extract Financial Data
+## Step 2: Clean and Extract Financial Data
 
 Run the following Python script to gather and format financial data from FinancialModelingPrep:
 
@@ -49,7 +49,7 @@ display(final_df)
 
 ---
 
-## 🔮 Step 3: Predict Earnings Direction Using LLMs
+## Step 3: Predict Earnings Direction Using LLMs
 
 Once you’ve generated your CSV, run:
 
@@ -88,7 +88,7 @@ results_df.to_csv("predictions_output.csv", index=False)
 
 ---
 
-## 🔄 Switching Models
+## Switching Models
 
 Inside `earnings_prediction.py`, you can change this line:
 
@@ -105,14 +105,14 @@ To use other models like:
 
 ---
 
-## 📁 Outputs
+## Outputs
 
 - Full streamed LLM reasoning for each firm.
 - Final one-word prediction: `increase` or `decrease`.
 
 ---
 
-## 🔍 Example Prompt Used (Chain-of-Thought)
+## Example Prompt Used (Chain-of-Thought)
 
 The LLM is instructed using a detailed financial analyst-style prompt like:
 
@@ -131,6 +131,6 @@ Full prompt templates are located in `earnings_prediction.py`.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions, feel free to message me
